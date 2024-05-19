@@ -1,0 +1,35 @@
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between; /* Space elements evenly */
+      align-items: center;
+      padding: 0 20px; /* Add horizontal padding */
+    }
+  
+    .copyright {
+      font-size: 14px;
+      color: #666;
+    }
+  
+    .links {
+      display: flex;
+  
+      a {
+        margin-left: 20px;
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #007bff;
+        }
+      }
+    }
+  }

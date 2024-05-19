@@ -1,0 +1,52 @@
+/* styles/Header.scss */
+
+.header {
+    background-color: #FFCB05; /* Pokémon Yellow */
+    padding: 15px 0;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+  
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      text-decoration: none;
+    }
+  
+    .searchContainer {
+      display: flex;
+      align-items: center; /* Align search bar and button vertically */
+    }
+  
+    .searchInput {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-right: 10px; /* Add space between input and button */
+    }
+  
+    .nav {
+      a {
+        margin-left: 20px;
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #007bff; /* Blue on hover */
+        }
+      }
+    }
+  }
+  

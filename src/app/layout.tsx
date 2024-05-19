@@ -1,41 +1,25 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "../styles/globals.scss";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import Header from '@/components/Header/header';
+import Footer from '@/components/Footer/footer';
+import '../styles/globals.scss';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Pokédex App", 
-  description: "Your go-to Pokédex for all things Pokémon!",
+  title: 'Pokédex App',
+  description: 'Your go-to Pokédex for all things Pokémon!',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* Add Header/Navigation here */}
-        <header>{/* Your header content */}</header>
-
-        {children}
-
-        {/* Add Footer here */}
-        <footer>{/* Your footer content */}</footer>
+        <Header />
+        <main className="container">{children}</main>
+        <Footer />
       </body>
     </html>
   );
 }
-// export default function RootLayout({
-//   children,
-// }: Readonly<{
-//   children: React.ReactNode;
-// }>) {
-//   return (
-//     <html lang="en">
-//       <body className={inter.className}>{children}</body>
-//     </html>
-//   );
-// }
+
