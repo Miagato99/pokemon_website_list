@@ -1,5 +1,6 @@
 .btn-wrapper {
   display: flex;
+  justify-content: center;
   gap: 8px;
   background-color: #fff000;
   border-radius: 12px;
@@ -8,13 +9,11 @@
   padding: 10px 15px;
   border: 0;
   box-sizing: border-box;
-  width: 100%;
   font-size: 16px;
 
   &:hover {
     cursor: pointer;
     outline: 0;
-    background: #f4e603;
-    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+    color: #6082b6;
   }
 }

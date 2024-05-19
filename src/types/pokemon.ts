@@ -24,6 +24,14 @@ export interface PokemonType {
     url: string;
   };
 }
+export interface PokemonStat {
+  base_stat: number;
+  effort: 0;
+  stat: {
+    name: string;
+    url: string;
+  };
+}
 
 export interface Pokemon {
   id: number;
@@ -32,6 +40,7 @@ export interface Pokemon {
   height: number;
   weight: number;
   abilities: PokemonAbility[];
+  stats: PokemonStat[];
   sprites: {
     front_default: string;
   };

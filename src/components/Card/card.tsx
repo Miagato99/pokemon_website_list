@@ -14,7 +14,10 @@ const Card: FC<ICardProps> = ({ pokemon }) => {
     <div className="card">
       <Image src={imageUrl} alt={name} width={150} height={150} />
       <h3 className="name">{name}</h3>
-      <Link href={`/pokemon/${name}`}>
+      <Link
+        href={`/pokemon/${pokemonId}/page`}
+        aria-label={`View details for ${name}`}
+      >
         <Button btnText="View Details" />
       </Link>
     </div>
