@@ -1,4 +1,4 @@
-This project is a modern Pokédex web application built using Next.js 13, featuring a hybrid routing approach with both the app and pages directories. It leverages TypeScript for type safety, SCSS for styling, and the PokéAPI to fetch and display data about Pokémon.
+This project is a modern Pokédex web application built using Next.js 13, featuring a hybrid routing approach with both the app and pages directories.It leverages TypeScript for type safety, SCSS for styling, and the PokéAPI to fetch and display data about Pokémon.
 ## Key Features:
 - Pokémon Listing: Presents a paginated list of Pokémon with their images and names.
 - Detailed Views: Provides detailed information for each Pokémon, including types, abilities, stats, and more.
@@ -12,7 +12,6 @@ This project is a modern Pokédex web application built using Next.js 13, featur
 - TypeScript: Strongly typed language for improved code quality and maintainability.
 - SCSS: CSS preprocessor for enhanced styling with variables, nesting, and more.
 - PokéAPI: The official RESTful API for Pokémon data.
-- Other: You can mention additional libraries you used for styling (e.g., Tailwind CSS), state management, etc.
 
 ## Getting Started
 
@@ -22,6 +21,12 @@ First, run the development server:
 - Install dependencies: npm install (or yarn install).
 - Run the development server: npm run dev (or yarn dev).
 - Open http://localhost:3000 in your browser.
+
+## Example ScreenShots
+![image](https://github.com/Miagato99/pokemon_website_list/assets/90808722/e40ee385-8163-470b-9275-c37adbd80030)
+![image](https://github.com/Miagato99/pokemon_website_list/assets/90808722/75d7850f-a06f-4bb2-ad42-92d1c5c3996c)
+
+
 
 ## Learn More
 
