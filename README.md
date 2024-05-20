@@ -18,10 +18,10 @@ This project is a modern Pokédex web application built using Next.js 13, featur
 
 First, run the development server:
 
--Clone this repository.
--Install dependencies: npm install (or yarn install).
--Run the development server: npm run dev (or yarn dev).
--Open http://localhost:3000 in your browser.
+- Clone this repository.
+- Install dependencies: npm install (or yarn install).
+- Run the development server: npm run dev (or yarn dev).
+- Open http://localhost:3000 in your browser.
 
 ## Learn More
 
