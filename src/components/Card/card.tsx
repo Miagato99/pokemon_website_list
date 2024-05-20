@@ -1,9 +1,9 @@
-import Link from "next/link";
-import "../../styles/card.scss";
-import Image from "next/image";
 import { FC } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import "../../styles/card.scss";
 import { ICardProps } from "./card-types";
-import Button from "../Button/button";
+import Button from "@/components/Button/button"
 
 const Card: FC<ICardProps> = ({ pokemon }) => {
   const { name, url } = pokemon;
