@@ -1,5 +1,5 @@
 /** @interface IButtonProps */
-export declare interface IButtonProps {
+declare interface IButtonProps {
   btnText: string;
   iconSuffix?: string;
   className?: string;

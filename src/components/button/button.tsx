@@ -1,5 +1,4 @@
 import { FC, HTMLProps } from "react";
-import { IButtonProps } from "./button-types";
 import "../../styles/button.scss"
 import classNames from "classnames";
 const Button: FC<IButtonProps & HTMLProps<HTMLButtonElement>> = ({

@@ -36,7 +36,7 @@ export interface PokemonStat {
 export interface Pokemon {
   id: number;
   name: string;
-  baseExperience: number;
+  base_experience: number;
   height: number;
   weight: number;
   abilities: PokemonAbility[];
