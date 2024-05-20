@@ -1,18 +1,18 @@
 This project is a modern Pokédex web application built using Next.js 13, featuring a hybrid routing approach with both the app and pages directories. It leverages TypeScript for type safety, SCSS for styling, and the PokéAPI to fetch and display data about Pokémon.
-##Key Features:
--##Pokémon Listing: Presents a paginated list of Pokémon with their images and names.
--##Detailed Views: Provides detailed information for each Pokémon, including types, abilities, stats, and more.
--##Image Optimization: Utilizes Next.js's Image component for efficient image loading and performance.
--##Responsive Design: Adapts to different screen sizes for optimal viewing on desktop and mobile.
--##Customizable: Easily extendable with additional features and Pokémon details.
--##Error Handling: Includes robust error handling for API requests and invalid routes.
+## Key Features:
+- Pokémon Listing: Presents a paginated list of Pokémon with their images and names.
+- Detailed Views: Provides detailed information for each Pokémon, including types, abilities, stats, and more.
+- Image Optimization: Utilizes Next.js's Image component for efficient image loading and performance.
+- Responsive Design: Adapts to different screen sizes for optimal viewing on desktop and mobile.
+- Customizable: Easily extendable with additional features and Pokémon details.
+- Error Handling: Includes robust error handling for API requests and invalid routes.
 
-Tech Stack:
--##Next.js 13: Modern React framework for building full-stack web applications.
--##TypeScript: Strongly typed language for improved code quality and maintainability.
--##SCSS: CSS preprocessor for enhanced styling with variables, nesting, and more.
--##PokéAPI: The official RESTful API for Pokémon data.
-_##Other: You can mention additional libraries you used for styling (e.g., Tailwind CSS), state management, etc.
+## Tech Stack:
+- Next.js 13: Modern React framework for building full-stack web applications.
+- TypeScript: Strongly typed language for improved code quality and maintainability.
+- SCSS: CSS preprocessor for enhanced styling with variables, nesting, and more.
+- PokéAPI: The official RESTful API for Pokémon data.
+- Other: You can mention additional libraries you used for styling (e.g., Tailwind CSS), state management, etc.
 
 ## Getting Started
 
