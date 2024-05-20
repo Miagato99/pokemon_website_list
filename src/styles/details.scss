@@ -1,4 +1,4 @@
-.detailsContainer {
+.details-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,31 +8,129 @@
   margin: 20px auto;
   max-width: 600px;
 
+  /* Image Section Styles */
+  .image-section {
+    margin-bottom: 20px;
+    text-align: center;
+
+    .image-wrapper {
+      border-radius: 50%;
+      overflow: hidden;
+      border: 5px solid white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .pokemon-image {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  /* Pokemon Name Styles */
   .name {
     text-align: center;
     margin-bottom: 20px;
     text-transform: capitalize;
+    font-size: 2em;
   }
 
+  /* Info Section Styles */
   .info-section {
+    width: 100%;
     margin-bottom: 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
 
     h3 {
       margin-bottom: 5px;
     }
 
-    ul {
+    ul,
+    p {
       list-style: none;
       padding: 0;
     }
-  }
 
-  img {
-    max-width: 100%; // Make the image responsive
-    height: auto;
+    .type-list {
+      display: flex;
+      gap: 5px;
+
+      .type {
+        padding: 5px 10px;
+        border-radius: 20px;
+        text-transform: capitalize;
+        font-weight: bold;
+        color: white;
+      }
+
+      // Add background colors for different types
+      .grass {
+        background-color: #78c850;
+      }
+      .fire {
+        background-color: #f08030;
+      }
+      .water {
+        background-color: #6890f0;
+      }
+      .electric {
+        background-color: #f8d030;
+      }
+      .normal {
+        background-color: #a8a878;
+      }
+      .fighting {
+        background-color: #c03028;
+      }
+      .flying {
+        background-color: #a890f0;
+      }
+      .poison {
+        background-color: #a040a0;
+      }
+      .ground {
+        background-color: #e0c068;
+      }
+      .rock {
+        background-color: #b8a038;
+      }
+      .bug {
+        background-color: #a8b820;
+      }
+      .ghost {
+        background-color: #705898;
+      }
+      .steel {
+        background-color: #b8b8d0;
+      }
+      .psychic {
+        background-color: #f85888;
+      }
+      .ice {
+        background-color: #98d8d8;
+      }
+      .dragon {
+        background-color: #7038f8;
+      }
+      .dark {
+        background-color: #705848;
+      }
+      .fairy {
+        background-color: #ee99ac;
+      }
+    }
+
+    /* Stats Table Styles */
+    .stats-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      td {
+        padding: 8px;
+        border: 1px solid #ccc;
+        text-align: left;
+      }
+    }
+  }
+  .button-container {
+    margin-top: 20px;
   }
 }
